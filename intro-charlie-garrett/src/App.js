@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/Header'
 import Favorites from './components/Favorites';
 import Profile from './components/Profile';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Profile />
       <Favorites />
+      <Footer/>
    </>   
    
   );
