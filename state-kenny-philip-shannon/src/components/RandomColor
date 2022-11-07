@@ -1,0 +1,20 @@
+import React, { useState } from "react"
+
+const ColorGenerator = () => {
+    let [colors, setColors] = useState["red", "orange", "blue", "pink", "green"]
+    let [colorIndex, setcolorIndex] = useState(0)
+
+    const random = () => {
+       let RandomColorNumber = Math.floor(Math.random() * colors.length)
+    }
+    return (
+        <>
+        <h1>HElllo</h1>
+        <p>The color is: { colors }</p>
+        <button onClick={random}> Our color is: {colors[colorIndex]}</button>
+        </>
+    )
+
+}
+
+export default RandomColor
