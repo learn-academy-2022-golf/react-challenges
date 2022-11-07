@@ -1,17 +1,19 @@
 
 import React, {useState} from "react"
-
+import './App.css'
 
 
 const App = () => {
-  const [count, colorCount] = useState(0)
+  const [color, setColor] = useState("white")
   
 
   return (
     <>
       <h1>Color Counter</h1>
-      <div>  </div>
-      <p>Counter: {count}</p>
+      <div className="square-div"> 
+      {color}
+         </div>
+     
       
     </>
   )
