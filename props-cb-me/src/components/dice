@@ -1,0 +1,10 @@
+const dice = (props) => {
+  return(
+    <>
+      
+      <p>{props.dice[props.index]}</p>
+    </>
+  )
+}
+
+export default Card
