@@ -21,7 +21,7 @@ const App = () => {
       {color}
          </div>
 
-<button onClick={}
+<button onClicRk={}
     </>
   )
 }
