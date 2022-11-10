@@ -10,7 +10,11 @@ import React, { useState } from 'react';
   // Add a handleChange function, and change event to input box
     // handleChange will pass user input upon change to good robot for display
 
-// *** NEXT *** - As a user, I see my "Bad Robot" saying "BLABLA....." One character for every character I type in real time.
+// *** in process *** - As a user, I see my "Bad Robot" saying "BLABLA....." One character for every character I type in real time.
+// get the console.log of the length.
+// update MEOWMEOW to match the length of the input box
+// Use the same user input value and use .length to match the input
+// use .map converts string > array to cover M,E,O,W 
 
 // As a user, I see a third robot that modifies the input as per the developer's choice in real time.
 function App() {
@@ -21,7 +25,11 @@ function App() {
   const handleChange = (e) => {
     console.log(e)
     setUserInput(e.target.value)
+    console.log(userInput.length)
   }
+
+
+
 
   return (
     <div className="App">
@@ -36,6 +44,9 @@ function App() {
       </div>
       
       <div className='Robot'> Bad Robo"</div>
+        <p>{userInput}</p>
+        {/* Robot.map(,index) */}
+
       <div className='Robot'> Kitty Robo </div>
 
     </div>
