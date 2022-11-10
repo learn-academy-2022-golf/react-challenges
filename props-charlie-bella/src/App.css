@@ -1,0 +1,17 @@
+p{
+  height:200px;
+  width:200px;
+  border-width: 5px;
+  border-color:black;
+  background-color: white;
+
+}
+
+body{
+  background-color: black;
+}
+
+button{
+  height:100px;
+  width:100px;
+}
