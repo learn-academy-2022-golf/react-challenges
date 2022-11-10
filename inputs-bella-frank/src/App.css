@@ -1,3 +1,17 @@
+* {
+  color: aqua;
+  background-color: black;
+}
+
+.Robot {
+  display: grid;
+  border-style: solid;
+  border-color: aqua;
+  height: 100px;
+  width: 100px;
+}
+
+
 .App {
   text-align: center;
 }
