@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+}
+
+.App{
+  height: 100vh;
+  background-color: grey;
+  padding-left: 30px;
+}
+input {
+  width: 500px;
+  margin: 8px;
+}
+.robot{
+  margin: 20px 0px;
+  color: rgb(220, 13, 13);
+}
